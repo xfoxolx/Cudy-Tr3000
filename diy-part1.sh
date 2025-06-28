@@ -16,6 +16,6 @@
 # Add a feed source
 git clone  https://github.com/gdy666/luci-app-lucky.git package/lucky
 git clone  https://github.com/f8q8/luci-app-filetransfer.git package/filetransfer
-git clone  https://github.com/rufengsuixing/luci-app-adguardhome.git package/adguardhome
+
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 
