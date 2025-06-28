@@ -14,8 +14,8 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git luci-app-filetransfer https://github.com/f8q8/luci-app-filetransfer' >>feeds.conf.default
-echo 'src-git luci-app-lucky https://github.com/gdy666/luci-app-lucky' >>feeds.conf.default
-echo 'src-git luci-app-adguardhome https://github.com/rufengsuixing/luci-app-adguardhome' >>feeds.conf.default
+echo 'src-git filetransfer https://github.com/f8q8/luci-app-filetransfer' >>feeds.conf.default
+echo 'src-git lucky https://github.com/gdy666/luci-app-lucky' >>feeds.conf.default
+echo 'src-git adguardhome https://github.com/rufengsuixing/luci-app-adguardhome' >>feeds.conf.default
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 
