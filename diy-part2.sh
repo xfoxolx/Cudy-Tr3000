@@ -17,4 +17,7 @@
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 # Modify hostname
-#sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+sed -i 's/ImmortalWrt/OIAXAIO/g' package/base-files/files/bin/config_generate
+
+# Modify dts
+sed -i 's/0x4000000/0x1ea00000/g' target/linux/mediatek/dts/mt7981b-cudy-tr3000-v1.dts
